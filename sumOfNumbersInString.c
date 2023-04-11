@@ -1,4 +1,4 @@
-// ----------print the sum of string numbers ----------
+// --- Print the sum of string numbers ---
 
 #include <stdio.h>
 #include <stdlib.h>
