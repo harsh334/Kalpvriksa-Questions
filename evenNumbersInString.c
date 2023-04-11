@@ -1,4 +1,4 @@
-// ----------------print even numbers out of string--------------
+// ----------------print even numbers out of string of this {x,x,x,x} format --------------
 
 #include <stdio.h>
 #include <stdlib.h>
