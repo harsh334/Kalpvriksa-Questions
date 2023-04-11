@@ -1,3 +1,7 @@
+// -----------print the length of the entered string----------------
+
+#include <stdio.h>
+#include <string.h>
 #include <stdio.h>
 
 int main()

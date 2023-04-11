@@ -1,3 +1,5 @@
+// ----------------print even numbers out of string--------------
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -6,7 +8,7 @@ int main()
 {
     char array[20];
     char *token;
-    printf("enter input in the form {xxx} : ");
+    printf("enter input in the form {x,x,x} : ");
     scanf("{");
     scanf("%[^'}']", array);
     token = strtok(array, ",");
