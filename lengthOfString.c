@@ -1,14 +1,16 @@
 #include <stdio.h>
 
-int main(){
-    char str[20];
-    int i=0;
-    printf("enter a string : ");
-    scanf("%s",&str);
-    while(str[i]!='\0'){
-        i+=1;
+int main()
+{
+    char inputString[20];
+    int index = 0;
+    printf("enter a string: ");
+    scanf("%s", &inputString);
+    while (inputString[index] != '\0')
+    {
+        index += 1;
     }
-    printf("entered string : %s\n",str);
-    printf("length of the string : %d",i);
+    printf("entered string : %s\n", inputString);
+    printf("length of the string : %d", index);
     return 0;
 }

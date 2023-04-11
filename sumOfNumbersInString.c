@@ -3,19 +3,19 @@
 #include <string.h>
 
 int main(){
-    int arr[20];
-    char str[20];
+    int array[20];
+    char inputString[20];
     char *token;
     int i=0;
     int sum=0;
     printf("enter a comma seprated string ");
-    scanf("%[^\n]s",&str);
+    scanf("%[^\n]s",&inputString);
     printf("\n");
-    printf("entered string : %s\n",str);
-    token = strtok(str,",");
+    printf("entered string : %s\n",inputString);
+    token = strtok(inputString,",");
     while (token != NULL) {
         sum+=atoi(token);
-        arr[i]=atoi(token);
+        array[i]=atoi(token);
         i+=1;
         token = strtok(NULL, ",");
     }
